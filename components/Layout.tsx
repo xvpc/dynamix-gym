@@ -50,15 +50,15 @@ function Layout({ children, title, description, image }: LayoutProps) {
                     <meta property="og:url" content={assetsInfo.site} />
                     <meta property="og:title" content={assetsInfo.title} />
                     <meta property="og:description" content={`${assetsInfo.description}`} />
-                    <meta property="og:image" content={assetsInfo.cardImage} />
+                    <meta property="og:image" content={assetsInfo.twitterImage} />
 
                     {/* Twitter Tags */}
                     <meta name="twitter:card" content="summary_large_image" />
                     <meta name="twitter:description" content={`${assetsInfo.description}`} />
-                    <meta name="twitter:site" content={assetsInfo.title} />
+                    <meta name="twitter:site" content={assetsInfo.site} />
                     <meta name="twitter:title" content={assetsInfo.title} />
                     <meta name="twitter:url" content={assetsInfo.site} />
-                    <meta name="twitter:image" content={assetsInfo.cardImage} />
+                    <meta name="twitter:image" content={assetsInfo.twitterImage} />
                     <meta name="twitter:image:alt" content={assetsInfo.title} />
 
                     {/* ICONS */}
@@ -100,7 +100,7 @@ function Layout({ children, title, description, image }: LayoutProps) {
                     {children}
                 </main>
                 <footer className="container-fluid bg-dark">
-                    <div className="d-flex flex-column justify-content-center algin-items-center gap-5 p-4">
+                    <div className="container d-flex flex-column justify-content-center algin-items-center gap-5 p-4">
                         <div className="d-flex flex-row flex-wrap justify-content-around algin-items-center gap-5">
                             <div className="justify-self-center align-self-center">
                                 <Link href="/">

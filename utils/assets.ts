@@ -3,6 +3,7 @@ type assetsInfoProps = {
     shortTitle: string,
     description: string,
     siteIcon: string,
+    twitterImage: string,
     cardImage: string,
     bannerImage: string,
     googleMap: string,
@@ -18,6 +19,7 @@ export const assetsInfo: assetsInfoProps = {
     shortTitle: "Dynamix Fitness",
     description: "Our Dynamix Fitness Centre gym is our largest club, and our first dual-concept Dynamix location.",
     siteIcon: "/images/pic3.jpg",
+    twitterImage: "https://i.ibb.co/K7tXKg1/icon.jpg",
     cardImage: "/images/pic3.jpg",
     bannerImage: "/images/banner.jpg",
     googleMap: process.env.NEXT_PUBLIC_GOOGLEMAP_URL as string,
@@ -26,5 +28,5 @@ export const assetsInfo: assetsInfoProps = {
     instagram: process.env.NEXT_PUBLIC_INSTAGRAM as string,
     facebook: process.env.NEXT_PUBLIC_FACEBOOK as string,
     email: process.env.NEXT_PUBLIC_EMAIL as string,
-    site: "Dynamix Fitness Center",
+    site: "https://dynamix-gym.pages.dev",
 }
