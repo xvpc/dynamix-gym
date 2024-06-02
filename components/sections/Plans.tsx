@@ -42,12 +42,12 @@ export default function Plans({plansTitle, plans}: {plansTitle: string, plans: a
                                 key={index} style={{cursor: "pointer"}} 
                                 onClick={() => document?.getElementById("contact")?.scrollIntoView({behavior: "smooth"})}
                                 className='overflow-hidden'>
-                                    <div className='w-100 h-100 d-flex flex-column justify-content-around align-items-center px-2 py-4 bg-black bg-opacity-75 rounded overflow-hidden'>
+                                    <div className='w-100 h-100 d-flex flex-column justify-content-around align-items-center px-4 py-5 bg-black bg-opacity-75 rounded overflow-hidden'>
                                         <div className='d-flex flex-column text-center gap-2 pb-3'>
                                             <h6 className='p-0 m-0 fw-bold'>{items.period}</h6>
                                             <div className='p-3 mb-3 border-bottom border-1 border-opacity-25 border-secondary'>
                                                 <Tooltip title={items.info || ""} arrow>
-                                                    <p className='p-0 m-0 text-truncate text-wrap text-secondary'>{items.info || ""}</p>
+                                                    <p style={{fontSize: "12px"}} className='p-0 m-0 text-truncate text-wrap text-secondary'>{items.info || ""}</p>
                                                 </Tooltip>
                                             </div>
                                             <p className='p-0 m-0 text-white-50 mb-2 fw-bold'>${items.price}</p>
