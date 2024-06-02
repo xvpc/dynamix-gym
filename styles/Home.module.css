@@ -1,0 +1,33 @@
+.hoverLinks:hover{
+  color: lightskyblue !important;
+}
+/* Start Layout */
+.backgroundGradient{
+  background-color: #000000;
+  background-image: linear-gradient(105deg, #000000 0%, #414141 74%);
+}
+/* End Layout */
+
+/* Start Banner */
+.bannerPattern{
+  --mask:
+  radial-gradient(42.43px at 50% calc(100% - 60.00px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+  radial-gradient(42.43px at 50% calc(100% + 30.00px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
+/* End Banner */
+
+/* Start Location */
+.mapContainer{
+  width: 100%;
+  height: 100%;
+}
+/* End Location */
+
+/* Start Coaches */
+.cardPattern{
+  background-color: #353535;
+  background-image: linear-gradient(147deg, #d7d7d7 0%, #353535 74%);
+}
+/* End Coaches */

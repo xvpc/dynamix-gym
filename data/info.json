@@ -1,0 +1,140 @@
+{
+    "ar": 
+        {
+            "description": "تعد صالة الألعاب الرياضية Dynamix Fitness Center أكبر نادي لدينا وأول موقع Dynamix ثنائي المفهوم.",
+            "showLocation": "موقعنا",
+            "location": "Huckstep, El Nozha, Cairo Governorate 4473160",
+            "opens": "مفتوح من",
+            "galleryTitle": "معرض الصور",
+            "plansTitle": "خطط الأشتراك",
+            "coachesTitle": "المدربين",
+            "contact": "تواصل معنا",
+            "plans": [
+                {
+                    "period": "الأساسية - السنوية",
+                    "price": 19.95,
+                    "plan": "Normal",
+                    "info": "دخول فردي للنادي"
+                },
+                {
+                    "period": "رئيس الوزراء - سنوي",
+                    "price": 26.95,
+                    "plan": "Sliver",
+                    "info": "الوصول إلى نادي متعدد"
+                },
+                {
+                    "period": "تنفيذي - سنوي",
+                    "price": 39.95,
+                    "plan": "Gold",
+                    "info": "كالجاري بليس + دخول متعدد للنادي"
+                }
+            ],
+            "coaches": [
+                {
+                    "name": "Gerardo Schwartz",
+                    "image": "/images/coaches/Gerardo.jpg",
+                    "title": "كوتش جيم"
+                },
+                {
+                    "name": "Alberto Merritt",
+                    "image": "/images/coaches/Alberto.jpg",
+                    "title": "كوتش جيم"
+                },
+                {
+                    "name": "Alexa Hendrix",
+                    "image": "/images/coaches/Alexa.jpg",
+                    "title": "كوتش جيم"
+                },
+                {
+                    "name": "Ashlynn Dalton",
+                    "image": "/images/coaches/Ashlynn.jpg",
+                    "title": "كوتش جيم"
+                },
+                {
+                    "name": "Kaiya Zhang",
+                    "image": "/images/coaches/Kaiya.jpg",
+                    "title": "كوتش جيم"
+                },
+                {
+                    "name": "Arabella Dougherty",
+                    "image": "/images/coaches/Arabella.jpg",
+                    "title": "كوتش جيم"
+                },
+                {
+                    "name": "Melanie Dickerson",
+                    "image": "/images/coaches/Melanie.jpg",
+                    "title": "كوتش جيم"
+                }
+            ]
+        }
+    ,
+    "en": 
+        {
+            "description": "Our Dynamix Fitness Centre gym is our largest club, and our first dual-concept Dynamix location.",
+            "showLocation": "Location",
+            "location": "Huckstep, El Nozha, Cairo Governorate 4473160",
+            "opens": "Opens at",
+            "galleryTitle": "Gallery",
+            "plansTitle": "Plans",
+            "coachesTitle": "Coaches",
+            "contact": "Contact us",
+            "plans": [
+                {
+                    "period": "CORE - ANNUAL",
+                    "price": 19.95,
+                    "plan": "Normal",
+                    "info": "SINGLE CLUB ACCESS"
+                },
+                {
+                    "period": "PREMIER - ANNUAL",
+                    "price": 26.95,
+                    "plan": "Sliver",
+                    "info": "MULTI CLUB ACCESS"
+                },
+                {
+                    "period": "EXECUTIVE - ANNUAL",
+                    "price": 39.95,
+                    "plan": "Gold",
+                    "info": "CALGARY PLACE + MULTI CLUB ACCESS"
+                }
+            ],
+            "coaches": [
+                {
+                    "name": "Gerardo Schwartz",
+                    "image": "/images/coaches/Gerardo.jpg",
+                    "title": "Gym Coache"
+                },
+                {
+                    "name": "Alberto Merritt",
+                    "image": "/images/coaches/Alberto.jpg",
+                    "title": "Gym Coache"
+                },
+                {
+                    "name": "Alexa Hendrix",
+                    "image": "/images/coaches/Alexa.jpg",
+                    "title": "Gym Coache"
+                },
+                {
+                    "name": "Ashlynn Dalton",
+                    "image": "/images/coaches/Ashlynn.jpg",
+                    "title": "Gym Coache"
+                },
+                {
+                    "name": "Kaiya Zhang",
+                    "image": "/images/coaches/Kaiya.jpg",
+                    "title": "Gym Coache"
+                },
+                {
+                    "name": "Arabella Dougherty",
+                    "image": "/images/coaches/Arabella.jpg",
+                    "title": "Gym Coache"
+                },
+                {
+                    "name": "Melanie Dickerson",
+                    "image": "/images/coaches/Melanie.jpg",
+                    "title": "Gym Coache"
+                }
+            ]
+        }
+    
+}

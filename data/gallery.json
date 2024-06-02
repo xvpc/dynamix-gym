@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "image": "/images/pic1.jpg",
+            "title": "Gym Image"
+        },
+        {
+            "image": "/images/pic2.jpg",
+            "title": "Gym Image"
+        },
+        {
+            "image": "/images/pic3.jpg",
+            "title": "Gym Image"
+        },
+        {
+            "image": "/images/pic4.jpg",
+            "title": "Gym Image"
+        },
+        {
+            "image": "/images/pic5.jpg",
+            "title": "Gym Image"
+        }
+    ]
+}

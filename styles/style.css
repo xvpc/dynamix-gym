@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&family=Noto+Naskh+Arabic');
+
+:root {
+  --font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+a{
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+ul{
+  list-style-type: none !important;
+}
+
+.arabic-lang{
+  direction: rtl !important;
+  font-family: 'Noto Naskh Arabic', serif, var(--font-family);
+}
+.english-lang{
+  direction: ltr !important;
+  font-family: var(--font-family);
+}
