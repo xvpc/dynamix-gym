@@ -1,4 +1,4 @@
-## Portfolio
+## Dynamix Fitness Center
 
 <a href="https://some.com" target="_blank" title="https://some.com">
     <img src="./public/images/pic3.jpg" width="140" height="140" alt='Site Icon'>
